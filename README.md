@@ -26,7 +26,7 @@ There are no complete end-to-end implementations of YOLOv8 segmentation models a
 ### 1. Clone the Repository
 
 ```bash
-git clone [<repository-url>](https://github.com/namas191297/yolov8-segmentation-end2end-onnxruntime.git)
+git clone https://github.com/namas191297/yolov8-segmentation-end2end-onnxruntime.git
 cd yolov8-segmentation-end2end-onnxruntime
 ```
 
