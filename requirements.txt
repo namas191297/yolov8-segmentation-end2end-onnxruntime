@@ -1,0 +1,4 @@
+onnxruntime 
+opencv-python
+numpy
+argparse
