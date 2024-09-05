@@ -78,7 +78,7 @@ python run_image.py --model models/yolov8n-640x640-end2end.onnx --image assets/p
 ## Model Outputs in Detail
 
 The model provides the following outputs:
-1. **Bounding Boxes**: The coordinates (xmin, ymin, xmax, ymax) that enclose each detected object.
+1. **Bounding Boxes**: The coordinates (xmin, ymin, xmax, ymax) that enclose each detected object along with class and confidence.
 2. **Final Mask**: A single mask representing all detected objects, with one mask per object.
 3. **Individual Masks**: Separate masks for each object, making it easy to apply and visualize each object's segmentation.
 
