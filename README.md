@@ -86,11 +86,22 @@ The model provides the following outputs:
 
 ## License
 
-This repository uses the YOLOv8 model provided by Ultralytics. Please note that YOLOv8 is licensed under the **GPL-3.0 License**. If you distribute or modify this repository, ensure compliance with the terms of the GPL-3.0 license.
+This repository uses the YOLOv8 model provided by Ultralytics. Please note that YOLOv8 is licensed under the **AGPL-3.0 License**. If you distribute or modify this repository, ensure compliance with the terms of the AGPL-3.0 license.
 
-For more details, you can review the license here: [Ultralytics YOLOv8 License](https://github.com/ultralytics/yolov8/blob/main/LICENSE).
+For more details, you can review the license here: [Ultralytics YOLOv8 License](https://github.com/ultralytics/ultralytics/yolov8/blob/main/LICENSE).
 
 ---
+
+## Modifications
+
+This repository is a modified version of [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) licensed under the AGPL-3.0 License. Modifications include:
+
+- Integrated all post-processing directly into the ONNX model.
+- Enhanced real-time object detection and segmentation capabilities.
+- Optimized model performance for specific use cases.
+
+**Date of Modifications:** October 2024
+
 
 ## Contributions
 
