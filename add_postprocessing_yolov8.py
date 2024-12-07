@@ -9,11 +9,7 @@ import onnxruntime_extensions
 import cv2
 import time
 
-# ==============================
-# Functions from the first file
-# ==============================
 import sys
-# We'll re-implement or copy the classes and functions defined in File 1 here:
 
 from onnxruntime_extensions.tools.pre_post_processing import PrePostProcessor, utils, Identity, Resize, LetterBox, ChannelsLastToChannelsFirst, ImageBytesToFloat, Unsqueeze, Squeeze, Transpose, Split, SelectBestBoundingBoxesByNMS, Step, create_named_value
 import onnx.parser
