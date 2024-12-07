@@ -2,3 +2,5 @@ onnxruntime
 opencv-python
 numpy
 argparse
+onnx
+onnxruntime_extensions
