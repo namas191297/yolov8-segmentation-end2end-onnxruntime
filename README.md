@@ -48,6 +48,22 @@ pip install -r requirements.txt
 
 ---
 
+### Converting to ONNX and adding Post-Processing 
+
+You can run the following script to download the required YOLOv8 model, convert it to ONNX format and stitch post-processing to the model via ONNX runtime extensions.
+
+```bash
+python add_postprocessing_yolov8.py \
+    --yolo-version 8 \
+    --model-size 512 \
+    --model yolov8n-seg.onnx \
+    --final-model yolov8n-seg-final.onnx \
+    --download-model \
+    --run-inference \
+    --input-width 512 \
+    --input-height 512
+```
+
 ### Running the Model
 
 You can run the model using your webcam feed for real-time segmentation.
